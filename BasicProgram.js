@@ -15,9 +15,9 @@ function isPrime(number) {
   
   const numToCheck = 13;
   if (isPrime(numToCheck)) {
-    console.log(`${numToCheck} is a prime number.`);
+    console.log( numToCheck + " is a prime number");
   } else {
-    console.log(`${numToCheck} is not a prime number.`);
+    console.log( numToCheck + " is not a prime number");
   }
   console.log("\n")
 
@@ -46,14 +46,14 @@ function isPrime(number) {
   
   const n = 10;
   const sum = fibonacciSum(n);
-  console.log(`Sum of the Fibonacci series up to ${n} is: ${sum}`);
+  console.log("sum of the Fibonacci series up to n is " + sum)
   console.log("\n");
 
 
 
   
   
-  console.log("3.program to find count of even, odd and zero");
+  console.log("3.program to find count of even, odd and zero")
   function countEvenOddZero(numbers) {
     let evenCount = 0;
     let oddCount = 0;
@@ -74,8 +74,11 @@ function isPrime(number) {
   
   const numbersArray = [2, 5, 0, 8, 3, 0, 1];
   const counts = countEvenOddZero(numbersArray);
-  console.log(`Even count: ${counts.evenCount}`);
-  console.log(`Odd count: ${counts.oddCount}`);
-  console.log(`Zero count: ${counts.zeroCount}`);
+  console.log("Even count : " + counts.evenCount)
+  console.log("Odd count : " + counts.oddCount)
+  console.log("Zero count : " + counts.zeroCount)
   
+    
+ 
+ 
   
